@@ -1,1 +1,5 @@
 VERSION = (1, 3, 1)
+
+ALL = ['GET', 'POST', 'PUT', 'DELETE', 'HEAD']
+
+UNSAFE = ['DELETE', 'PATCH', 'POST', 'PUT']
